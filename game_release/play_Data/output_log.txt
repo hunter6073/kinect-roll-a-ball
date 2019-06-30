@@ -1,0 +1,46 @@
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.058 seconds
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\TED\Documents\GitHub\kinect-roll-a-ball\game_release\play_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.531100 ms
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/.\libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Mono/libC:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+DllNotFoundException: C:/Users/TED/Documents/GitHub/kinect-roll-a-ball/game_release/play_Data/Plugins/KinectUnityAddin.dll
+  at (wrapper managed-to-native) Windows.Kinect.KinectSensor:Windows_Kinect_KinectSensor_GetDefault ()
+  at Windows.Kinect.KinectSensor.GetDefault () [0x00000] in <filename unknown>:0 
+  at BodySourceManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3ec0 -> priority: 1 
+  Thread -> id: 744 -> priority: 1 
